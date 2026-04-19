@@ -1,4 +1,7 @@
 @media (max-width: 600px) {
+    body{
+        padding-right: 10px;
+    }
 
     .navbar {
       flex-direction: column;
@@ -7,10 +10,28 @@
       padding: 10px;
       gap: 10px;
     }
+
+    
+    @media (max-width: 600px) {
+        .menu .nav-item {
+            display: none;
+          }
+    
+          .menu .login {
+            display: inline;
+            width: 100%;
+          }
+          .menu {
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+          }
+      }
+    
   
     h2 {
-      margin-top: 2px;  
-      justify-self: center;
+      margin-top: 1px;  
+      margin-left: 30px;
       font-size: 22px;
     }
   
@@ -27,7 +48,7 @@
     }
   
     .search-box {
-      width: 100%;
+      width: 90%;
     }
   
     .login {
@@ -43,7 +64,13 @@
       height: auto;
       text-align: center;
     }
-  
+    
+    .hero h1{
+        font-size: 20px;
+        color: rgb(38, 2, 41);
+        margin-right: 7px;
+    }
+
     .hero img {
       max-width: 100%;
       margin-top: 20px;
@@ -74,7 +101,7 @@
 
   @media (max-width: 600px) {
     .sidebar.open {
-      width: 180px;
+      width: 100%;
     }
   }
 
