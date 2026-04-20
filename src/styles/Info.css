@@ -1,0 +1,86 @@
+.info {
+    margin: 70px 150px 0 200px;
+    display: flex;
+    background-color: rgba(223, 157, 16, 0.1);
+    height: 60vh;
+    width: 130vh;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+
+  .details {
+    flex: 1;
+    width: 60vh;
+    padding: 20px;
+  }
+  
+  .details h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #c40c7d;
+  }
+  
+  .details p {
+    font-size: 17px;
+    color:rgb(124, 71, 2);
+  }
+  
+  .image img {
+    width: 49vh;
+    height: 59vh;
+   
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  .linkedin-btn {
+    padding: 10px 20px;
+    background: #c2880a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  .linkedin-btn:hover {
+    background: #171718;
+  } 
+@media (max-width: 768px) {
+    .info {
+      flex-direction: column;
+      margin-right: 5px; 
+      margin: 16px;
+      padding: 20px;
+      height: auto;   
+      width: auto;
+    }
+    .image {
+      order: 1;
+      width: 100%;
+    }
+  
+    .image img {    
+      width: 98%;
+      height: auto;
+      display: block;
+    }
+
+    .details {
+    margin-right: 5px;  
+      order: 2;
+      padding: 5px;
+    }
+    .details h1 {
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: #c40c7d;
+      }
+      
+      .details p {
+        font-size: 10px;
+        color:rgb(124, 71, 2);
+      }
+  
+  }

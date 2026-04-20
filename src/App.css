@@ -77,9 +77,9 @@
     }
   }
 
-  .container {
+  /* .container {
     position: absolute;
-  }
+  } */
 
   @media (max-width: 600px) {
     .container {

@@ -10,14 +10,14 @@ export default function Footer() {
           <h3>Student Hub</h3>
           <p>
             <strong>Head Office:</strong><br />
-            A-101, Knowledge Tower,<br />
-            Noida, UP (201301)
+            A-101,<br />
+            Muzaffarpur, Bihar (201301)
           </p>
 
           <p>
             <strong>Registered Address:</strong><br />
-            B-22, Laxmi Nagar,<br />
-            Delhi (110092)
+            B-22, Aurai,<br />
+            Babhangama (110092)
           </p>
         </div>
 

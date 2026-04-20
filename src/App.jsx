@@ -6,6 +6,7 @@ import { CardContainer } from "./components/CardContainer";
 import "./styles/style.css";
 import "./App.css";
 import Footer from "./components/Footer";
+import Info from "./components/Info";
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -24,6 +25,7 @@ export default function App() {
           
         </div>
       </div>
+      <Info />
       <Footer />
     </>
   );
